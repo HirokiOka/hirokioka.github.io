@@ -1,0 +1,5 @@
+permalink: /:categories/:year-:month-:day/:title
+author:
+  name: Hiroki Oka
+  email: mementoka@gmail.com
+theme: jekyll-theme-clean-blog
