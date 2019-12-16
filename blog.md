@@ -1,9 +1,10 @@
 ---
 layout: default
-title: ブログ
+title: Blog
 ---
 
-# Blog
+## Blog
+### Coming soon!
 
 <ul>
     {% for post in site.posts %}
