@@ -4,7 +4,7 @@ title: Profile
 ---
 ## About
 
-<img src="img/me.jpg" width="300">
+<img src="img/me.jpg" width="200">
 
 岡 大貴(おか ひろき)
 
