@@ -1,7 +1,8 @@
 ---
 layout: default
-title: 岡 大貴のWebサイト
+title: Top
 ---
-
-# Home
-
+## Hiroki Oka Web
+<link rel="stylesheet" href="css/style.css">
+<script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+<script src="js/sketch.js"></script>
