@@ -4,7 +4,7 @@ title: Blog
 ---
 
 ## Blog
-### Coming soon!
+
 
 <ul>
     {% for post in site.posts %}
