@@ -22,10 +22,22 @@ title: Work
         <h5 class="card-title">GitHub Typing</h5>
         <p class="card-text">GitHubからランダムに選んだソースコードでタイピングをするゲームです</p>
         <p class="mb-0"><a href="https://calm-chamber-39150.herokuapp.com/" class="btn btn-primary btn-sm">link</a></p>
-
       </div><!-- /.card-body -->
     </div><!-- /.card -->
   </div><!-- /.col-sm-6.col-md-3 -->
+
+  <div class="col-sm-6 col-md-3">
+    <div class="card img-thumbnail">
+      <img class="card-img-top" src="img/JStyping.png" alt="画像">
+      <div class="card-body px-2 py-3">
+        <h5 class="card-title">JS Typing</h5>
+        <p class="card-text">GitHub TypingのJavaScript版(開発中)</p>
+        <p class="mb-0"><a href="https://js-typing.herokuapp.com/" class="btn btn-primary btn-sm">link</a></p>
+      </div><!-- /.card-body -->
+    </div><!-- /.card -->
+  </div><!-- /.col-sm-6.col-md-3 -->
+
+
    <div class="col-sm-6 col-md-3">
     <div class="card img-thumbnail">
       <img class="card-img-top" src="img/generative.png" alt="画像">
