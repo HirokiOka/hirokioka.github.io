@@ -2,7 +2,6 @@
 layout: default
 title: Profile
 ---
-## About
 
 <img src="img/me.jpg" width="200">
 
