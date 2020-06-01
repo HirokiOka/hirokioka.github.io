@@ -53,8 +53,8 @@ title: Work
       <img class="card-img-top" src="img/generative.png" alt="画像">
       <div class="card-body px-2 py-3">
         <h5 class="card-title">Generative Things</h5>
-        <p class="card-text">Processingでデザインしたグッズです</p>
-        <p class="mb-0"><a href="https://suzuri.jp/hir0ki_0ka" class="btn btn-primary btn-sm">suzuri</a></p>
+        <p class="card-text">p5.jsを使ったsketch集</p>
+        <p class="mb-0"><a href="https://neort.io/Gt8eI4ixzzfU5PAG1jp6vX7qJNx2" class="btn btn-primary btn-sm">suzuri</a></p>
       </div><!-- /.card-body -->
     </div><!-- /.card -->
   </div><!-- /.col-sm-6.col-md-3 -->
