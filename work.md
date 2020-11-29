@@ -50,7 +50,7 @@ title: Work
 
    <div class="col-sm-6 col-md-3">
     <div class="card img-thumbnail">
-      <img class="card-img-top" src="img/generative.png" alt="画像">
+      <img class="card-img-top" src="img/sketch.PNG" alt="画像">
       <div class="card-body px-2 py-3">
         <h5 class="card-title">Generative Things</h5>
         <p class="card-text">p5.jsを使ったsketch集</p>
