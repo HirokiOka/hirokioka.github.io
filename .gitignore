@@ -1,4 +1,2 @@
 .env.development.local
 node_modules/
-.next
-out
