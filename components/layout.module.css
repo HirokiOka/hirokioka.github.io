@@ -8,6 +8,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding: 14px 0;
 }
 
 .headerImage {

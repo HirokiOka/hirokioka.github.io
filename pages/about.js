@@ -10,7 +10,6 @@ export default function About() {
         <title>{siteTitle}</title>
       </Head>
       <section>
-        <h1>Hiroki Oka</h1>
         <img
           src="/images/profile.png"
           className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}

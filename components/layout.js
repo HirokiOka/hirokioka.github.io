@@ -4,7 +4,6 @@ import utilStyles from '../styles/utils.module.css'
 import homeStyles from '../styles/Home.module.css'
 import Link from 'next/link'
 
-
 export const name = 'Hiroki Oka'
 export const siteTitle = 'HirokiOka Web'
 
