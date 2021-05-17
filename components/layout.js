@@ -22,22 +22,22 @@ function Layout({ children, home }) {
         <nav className={styles.navWrapper}>
           <li>
             <Link href="/">
-              <a className={styles.navItem}>Home</a>
+              <a className={styles.navItem}>home</a>
             </Link>
           </li>
           <li>
             <Link href="/about">
-              <a className={styles.navItem}>About</a>
+              <a className={styles.navItem}>about</a>
             </Link>
           </li>
           <li>
-            <Link href="/works">
-              <a className={styles.navItem}>Works</a>
+            <Link href="/projects">
+              <a className={styles.navItem}>projects</a>
             </Link>
           </li>
           <li>
             <Link href="/posts">
-              <a className={styles.navItem}>Blog</a>
+              <a className={styles.navItem}>blog</a>
             </Link>
           </li>
         </nav>
