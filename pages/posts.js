@@ -1,11 +1,15 @@
 import Link from 'next/link'
-import Layout from '../components/layout'
+import Head from 'next/head'
+import Layout, {siteTitle, name} from '../components/layout'
 
 export default function Posts({ blog }) {
   return (
     <Layout>
-      <h1>Blog Posts</h1>
-      <ul>
+      <Head>
+        <title>{siteTitle}</title>
+      </Head>
+      <h1 className='text-4xl font-bold py-4'>Blog Posts</h1>
+      <ul className='list-disc list-inside mx-3 text-xl pb-3'>
         {blog.map(blog => (
           <li key={blog.id}>
             <Link href={`blog/${blog.id}`}>

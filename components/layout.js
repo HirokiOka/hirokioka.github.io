@@ -1,7 +1,4 @@
 import Head from 'next/head'
-import styles from './layout.module.css'
-import utilStyles from '../styles/utils.module.css'
-import homeStyles from '../styles/Home.module.css'
 import Link from 'next/link'
 
 export const name = 'Hiroki Oka'
@@ -9,7 +6,7 @@ export const siteTitle = 'HirokiOka Web'
 
 function Layout({ children, home }) {
   return (
-    <div className={styles.container}>
+    <div className='font-display'>
       <Head>
         <link rel="icon" href="/images/favicon.ico" />
         <meta
@@ -18,32 +15,24 @@ function Layout({ children, home }) {
         />
         <meta name="og:title" content={siteTitle} />
       </Head>
-      <header className={styles.header}>
-        <nav className={styles.navWrapper}>
-          <li>
+      <header className='bg-black text-white fixed top-0 w-full'>
+        <nav className='m-4'>
             <Link href="/">
-              <a className={styles.navItem}>home</a>
+              <a className='m-2 text-3xl'>HirokiOka Web.</a>
             </Link>
-          </li>
-          <li>
             <Link href="/about">
-              <a className={styles.navItem}>about</a>
+              <a className='mx-4 hover:underline text-2xl'>about</a>
             </Link>
-          </li>
-          <li>
             <Link href="/projects">
-              <a className={styles.navItem}>projects</a>
+              <a className='mx-4 hover:underline text-2xl'>projects</a>
             </Link>
-          </li>
-          <li>
             <Link href="/posts">
-              <a className={styles.navItem}>blog</a>
+              <a className='mx-4 hover:underline text-2xl'>blog</a>
             </Link>
-          </li>
         </nav>
       </header>
-      <main>{children}</main>
-        <footer className={styles.footer}>Copyright @ Hiroki Oka All Rights Reserved</footer> 
+      <main className='py-12 font-sans'>{children}</main>
+        <footer className='text-center text-xl w-full py-2'>Copyright @ Hiroki Oka All Rights Reserved</footer> 
     </div>
   )
 }

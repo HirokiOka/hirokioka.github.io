@@ -1,19 +1,17 @@
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
-import styles from '../styles/utils.module.css'
 import dynamic from 'next/dynamic'
 
 export default function Home() {
   return (
-    <>
+    <div className='bg-black text-white'>
       <Layout home>
         <Head>
           <title>{siteTitle}</title>
         </Head>
-        <h1>HirokiOka Web.</h1>
-      <SketchComponent className={styles.sketch} />
+        <SketchComponent className=''/>
       </Layout>
-    </>
+    </div>
   );
 }
 
@@ -38,8 +36,10 @@ export const SketchComponent = () =>  {
   };
   
   const setup = (p5, canvasParentRef) => {
-    width = p5.windowWidth*2/3;
-    height = p5.windowHeight*2/3;
+    //width = p5.windowWidth*2/3;
+    width = p5.windowWidth;
+    //height = p5.windowHeight*2/3;
+    height = p5.windowHeight;
     p5.createCanvas(width, height).parent(canvasParentRef);
     p5.noStroke();
     p5.textAlign(p5.CENTER, p5.CENTER);
@@ -47,8 +47,8 @@ export const SketchComponent = () =>  {
   };
 
   const windowResized = (p5) => {
-    width = p5.windowWidth*2/3;
-    height = p5.windowHeight*2/3;
+    width = p5.windowWidth;
+    height = p5.windowHeight;
     p5.resizeCanvas(width, height);
   };
 
@@ -73,7 +73,7 @@ export const SketchComponent = () =>  {
     p5.rect(width/2, height/2, messageWidth + offset, messageSize + offset);
     p5.textSize(64);
     p5.fill(255 - backgroundColor);
-    p5.text("HELLO   WORLD", width/2, height/2);
+    p5.text("HELLO   WORLD.", width/2, height/2);
   };
 
   return <Sketch preload={preload} setup={setup} draw={draw} windowResized={windowResized}/>;
