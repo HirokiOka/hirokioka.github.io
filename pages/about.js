@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Layout, {siteTitle, name} from '../components/layout'
 
 export default function About() {
