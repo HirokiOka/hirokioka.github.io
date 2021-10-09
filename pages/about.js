@@ -7,7 +7,7 @@ export default function About() {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className='py-4'>
+      <div className='p-6'>
         <img
           className='mx-2'
           width="360"
@@ -19,7 +19,6 @@ export default function About() {
         <p className='text-xl'>I'm researching about programming education and programming experience(PX) in Human-Computer Interaction fields. I love programming. I also love reading books and jazz too!
     I'm researching about programming education and programming experience(PX) in Human-Computer Interaction fields. I love programming. I also love reading books and jazz too!
         </p>
-        </section>
           <h3 className='text-2xl font-bold'>Keywords</h3>
           <ul className='list-disc list-inside mx-3 text-xl pb-3'>
             <li>Programming Education</li>
@@ -43,6 +42,7 @@ export default function About() {
                   <li>岡 大貴, 西田健志: エンターテイメントを用いたコードリーディング促進手法の提案, ユビキタス・ウェアラブルワークショップ2019論文集, p.59(Dec.2019).</li>
                     <li>岡 大貴, 西田健志: 競技性・観戦性を拡張したプログラミングゲームの提案, エンタテインメントコンピューティングシンポジウム2020 論文集, Vol. 2020, pp.166–169(Sep. 2020).</li>
             </ol>
+    </div>
     </Layout>
   )
 }
