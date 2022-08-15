@@ -21,13 +21,13 @@ function Layout({ children, home }) {
               <a className='m-2 text-3xl'>HirokiOka Web.</a>
             </Link>
             <Link href="/about">
-              <a className='mx-4 hover:underline text-2xl'>about</a>
+              <a className='mx-4 hover:underline text-2xl'>About</a>
             </Link>
             <Link href="/projects">
-              <a className='mx-4 hover:underline text-2xl'>projects</a>
+              <a className='mx-4 hover:underline text-2xl'>Projects</a>
             </Link>
             <Link href="/posts">
-              <a className='mx-4 hover:underline text-2xl'>blog</a>
+              <a className='mx-4 hover:underline text-2xl'>Blog</a>
             </Link>
         </nav>
       </header>
