@@ -11,6 +11,19 @@ export default function Projects() {
       <div className='p-6'>
         <h1 className='text-4xl font-bold'>Personal Projects</h1>
         <div className='grid grid-flow-col auto-cols-max'>
+
+          <div className="max-w-sm rounded overflow-hidden shadow-lg p-3">
+              <Link href="https://youtu.be/sySSGVPg_Q8">
+                <img src="/images/light_keeper.JPG" /> 
+              </Link>
+            <div className="px-6 py-4">
+              <div className="font-bold text-xl mb-2">Light-Keeper</div>
+              <p className="text-gray-700 text-base">
+                Interactive content with projection mapping
+              </p>
+            </div>
+          </div>
+
           <div className="max-w-sm rounded overflow-hidden shadow-lg p-3">
               <Link href="https://js-typing.herokuapp.com/">
                 <img className="w-full" src="/images/js_type.png" alt="js typing" />
@@ -19,18 +32,6 @@ export default function Projects() {
               <div className="font-bold text-xl mb-2">JS_Typing</div>
               <p className="text-gray-700 text-base">
                 JavaScript Typing game
-              </p>
-            </div>
-          </div>
-
-          <div className="max-w-sm rounded overflow-hidden shadow-lg p-3">
-              <Link href="https://gh-app.herokuapp.com/">
-                <img src="/images/gh_app.png" /> 
-              </Link>
-            <div className="px-6 py-4">
-              <div className="font-bold text-xl mb-2">GitHub App</div>
-              <p className="text-gray-700 text-base">
-                quiz and fortune telling game using codes
               </p>
             </div>
           </div>
@@ -46,6 +47,7 @@ export default function Projects() {
               </p>
             </div>
           </div>
+
       </div>
 
         <h1 className='text-4xl font-bold pt-2'>Collaborative Projects</h1>

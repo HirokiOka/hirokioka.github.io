@@ -35,7 +35,11 @@ export default function About() {
               <li>岡 大貴, 大西鮎美, 寺田 努, 塚本昌彦: マルチモーダル情報を用いたプログラミング時のつまずき検出手法の検討, ユビキタス・ウェアラブルワークショップ 2021 論文集, Vol.2021, p.36 (Dec. 2021).</li>
               <li>岡 大貴, 大西鮎美，寺田 努, 塚本昌彦: マルチモーダル情報を用いたプログラミング時のつまずき検出手法の提案, 研究報告ヒューマンコンピュータインタラクション (HCI), Vol. 2022, No. 9, pp. 1–7
 (Mar. 2022).</li>
-            </ol>
+          </ol>
+          <h3 className='text-lg font-bold'>国際会議</h3>
+          <ol className='list-disc list-inside mx-3 text-lg'>
+            <li> H. Oka, A. Ohnishi, T. Terada, M. Tsukamoto: A Stumble Detection Method for Programming with Multi-modal Information, In International Conference on Advances in Mobile Computing and Multimedia Intelligence (MoMM2022), pp. 169–174 (Nov. 2022).</li>
+          </ol>
     </div>
     </Layout>
   )
