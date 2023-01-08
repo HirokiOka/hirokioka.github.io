@@ -25,7 +25,7 @@ export default function Projects() {
           </div>
 
           <div className="max-w-sm rounded overflow-hidden shadow-lg p-3">
-              <Link href="https://js-typing.herokuapp.com/">
+              <Link href="https://js-typing.onrender.com/">
                 <img className="w-full" src="/images/js_type.png" alt="js typing" />
               </Link>
             <div className="px-6 py-4">
@@ -53,7 +53,7 @@ export default function Projects() {
         <h1 className='text-4xl font-bold pt-2'>Collaborative Projects</h1>
         <div className='grid grid-flow-col auto-cols-max'>
           <div className="max-w-sm rounded overflow-hidden shadow-lg p-3">
-              <Link href="https://tsubuyaki-syoten.herokuapp.com/">
+              <Link href="https://tsubuyaki-syoten.onrender.com">
                 <img src="/images/tsubuyaki-syoten.png" /> 
               </Link>
             <div className="px-6 py-4">
