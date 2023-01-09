@@ -12,7 +12,7 @@ export default function Projects() {
         <h1 className='text-4xl font-bold'>Personal Projects</h1>
         <div className='grid grid-flow-col auto-cols-max'>
 
-          <div className="max-w-sm rounded overflow-hidden shadow-lg p-3">
+          <div className="cursor-pointer max-w-sm rounded overflow-hidden shadow-lg p-3">
               <Link href="https://youtu.be/sySSGVPg_Q8">
                 <img src="/images/light_keeper.JPG" /> 
               </Link>
@@ -24,7 +24,7 @@ export default function Projects() {
             </div>
           </div>
 
-          <div className="max-w-sm rounded overflow-hidden shadow-lg p-3">
+          <div className="cursor-pointer max-w-sm rounded overflow-hidden shadow-lg p-3">
               <Link href="https://js-typing.onrender.com/">
                 <img className="w-full" src="/images/js_type.png" alt="js typing" />
               </Link>
@@ -36,7 +36,7 @@ export default function Projects() {
             </div>
           </div>
 
-          <div className="max-w-sm rounded overflow-hidden shadow-lg p-3">
+          <div className="cursor-pointer max-w-sm rounded overflow-hidden shadow-lg p-3">
               <Link href="https://neort.io/Gt8eI4ixzzfU5PAG1jp6vX7qJNx2">
                 <img src="/images/sketch.png" /> 
               </Link>
@@ -50,9 +50,9 @@ export default function Projects() {
 
       </div>
 
-        <h1 className='text-4xl font-bold pt-2'>Collaborative Projects</h1>
+        <h1 className="text-4xl font-bold pt-2">Collaborative Projects</h1>
         <div className='grid grid-flow-col auto-cols-max'>
-          <div className="max-w-sm rounded overflow-hidden shadow-lg p-3">
+          <div className="cursor-pointer max-w-sm rounded overflow-hidden shadow-lg p-3">
               <Link href="https://tsubuyaki-syoten.onrender.com">
                 <img src="/images/tsubuyaki-syoten.png" /> 
               </Link>
