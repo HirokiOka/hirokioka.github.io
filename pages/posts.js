@@ -11,7 +11,7 @@ export default function Posts({ blog }) {
       <div className='p-6'>
         <h1 className='text-4xl font-bold'>Blog Posts</h1>
         <ul className='list-disc list-inside mx-3 text-xl pb-3'>
-          {blog.map(blog => (
+          {blog && blog.map(blog => (
             <li key={blog.id}>
               <Link href={`blog/${blog.id}`}>
                 <a>{blog.title}</a>
