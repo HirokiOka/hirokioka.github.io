@@ -22,7 +22,6 @@ export const getStaticPaths = async() => {
   const key = {
     headers: { 'X-API-KEY': process.env.API_KEY },
   }
-  console.log(process.env.API_KEY)
   const data = await fetch('https://hirokioka.microcms.io/api/v1/posts', key)
     .then(res => res.json())
     .catch(() => null)
