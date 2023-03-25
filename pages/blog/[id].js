@@ -20,7 +20,7 @@ export default function BlogId({ blog }) {
 
 export const getStaticPaths = async() => {
   const key = {
-    headers: { 'X-API-KEY': process.env.API_KEY },
+    headers: { 'X-API-KEY': 'f681de22-36fe-4cec-a4de-a362ba6285ba' },
   }
   const data = await fetch('https://hirokioka.microcms.io/api/v1/posts', key)
     .then(res => res.json())
@@ -32,7 +32,7 @@ export const getStaticPaths = async() => {
 export const getStaticProps = async(context) => {
   const id = context.params.id
   const key = {
-    headers: { 'X-API-KEY': process.env.API_KEY },
+    headers: { 'X-API-KEY': 'f681de22-36fe-4cec-a4de-a362ba6285ba' },
   }
   const data = await fetch(
     'https://hirokioka.microcms.io/api/v1/posts/' + id,
@@ -42,7 +42,7 @@ export const getStaticProps = async(context) => {
 
   return {
     props: {
-      blog: data,
+      blog: data
     },
   };
 };
