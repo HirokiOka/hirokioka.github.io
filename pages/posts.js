@@ -1,6 +1,6 @@
-import Link from 'next/link'
-import Head from 'next/head'
-import Layout, {siteTitle, name} from '../components/layout'
+import Link from 'next/link';
+import Head from 'next/head';
+import Layout, {siteTitle, name} from '../components/layout';
 
 export default function Posts({ blogs }) {
   return (
@@ -14,14 +14,14 @@ export default function Posts({ blogs }) {
           {blogs && blogs.map(blog => (
             <li key={blog.id}>
               <Link href={`blog/${blog.id}`}>
-                <a>{blog.title}</a>
+                {blog.title}
               </Link>
             </li>
           ))}
         </ul>
-    </div>
+      </div>
     </Layout>
-  )
+  );
 }
 
 export const getStaticProps = async() => {

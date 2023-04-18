@@ -1,5 +1,5 @@
-import Layout, { siteTitle } from '../../components/layout'
-import Head from 'next/head'
+import Layout, { siteTitle } from '../../components/layout';
+import Head from 'next/head';
 
 export default function BlogId({ blog }) {
   return (
@@ -24,21 +24,21 @@ export const getStaticPaths = async() => {
   }
   const data = await fetch('https://hirokioka.microcms.io/api/v1/posts', key)
     .then(res => res.json())
-    .catch(() => null)
+    .catch(() => null);
   const paths = data.contents.map(content => `/blog/${content.id}`);
-  return { paths, fallback: false }
+  return { paths, fallback: false };
 };
 
 export const getStaticProps = async(context) => {
-  const id = context.params.id
+  const id = context.params.id;
   const key = {
     headers: { 'X-API-KEY': 'f681de22-36fe-4cec-a4de-a362ba6285ba' },
-  }
+  };
   const data = await fetch(
     'https://hirokioka.microcms.io/api/v1/posts/' + id,
     key,
   ).then(res => res.json())
-   .catch(() => null)
+   .catch(() => null);
 
   return {
     props: {
