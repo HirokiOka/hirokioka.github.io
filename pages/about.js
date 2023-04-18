@@ -41,10 +41,11 @@ export default function About() {
           <ol className='list-decimal list-inside mx-3 text-lg'>
             <li><span className='underline'>H. Oka</span>, A. Ohnishi, T. Terada, M. Tsukamoto: A Stumble Detection Method for Programming with Multi-modal Information, In International Conference on Advances in Mobile Computing and Multimedia Intelligence (MoMM2022), pp. 169–174 (Nov. 2022).</li>
           </ol>
-
-        <h3 className='text-xl font-bold pt-3'>予算獲得等</h3>
+        <h3 className='text-xl font-bold pt-3'>受賞・予算獲得等</h3>
         <ul className='list-disc list-inside mx-3 text-lg'>
           <li>令和４年度神戸大学博士学生フェロー</li>
+          <li>Yahoo!JAPAN ハッカソン Open Hack U 2021 Online Vol.2 優秀賞
+</li>
         </ul>
           
     </div>
