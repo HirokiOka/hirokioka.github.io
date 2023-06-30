@@ -11,11 +11,12 @@ export default function About() {
       </Head>
       <div className='p-6'>
         <h1 className='text-2xl font-bold'>岡 大貴</h1>
-        <img
+        <Image
           className='mx-2'
           width="360"
           height="320"
           src="/images/profile.png"
+          unoptimized={true}
           alt={name}
         />
 
@@ -23,6 +24,7 @@ export default function About() {
         <Link href="https://twitter.com/unacceptablee2" className='p-1'>
           <Image
             src="/images/square-twitter.svg"
+            unoptimized={true}
             width={30}
             height={30}
           /> 
@@ -30,6 +32,7 @@ export default function About() {
         <Link href="https://github.com/HirokiOka" className='p-1'>
           <Image
             src="/images/square-github.svg"
+            unoptimized={true}
             width={30}
             height={30}
           /> 
