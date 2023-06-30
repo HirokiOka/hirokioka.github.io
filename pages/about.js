@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import Link from 'next/link'
+import Image from 'next/image'
 import Layout, {siteTitle, name} from '../components/layout'
 
 export default function About() {
@@ -16,8 +18,27 @@ export default function About() {
           src="/images/profile.png"
           alt={name}
         />
+
+        <div className='grid grid-flow-col auto-cols-max m-2'>
+        <Link href="https://twitter.com/unacceptablee2" className='p-1'>
+          <Image
+            src="/images/square-twitter.svg"
+            width={30}
+            height={30}
+          /> 
+        </Link>
+        <Link href="https://github.com/HirokiOka" className='p-1'>
+          <Image
+            src="/images/square-github.svg"
+            width={30}
+            height={30}
+          /> 
+        </Link>
+        </div>
+
         <h1 className='text-xl font-bold'>研究内容</h1>
         <p className='text-lg m-2'>HCI分野で,プログラミングをより楽しくするための研究をしています．</p>
+
           <h3 className='text-xl font-bold'>略歴</h3>
           <div className='text-base pb-3 m-2'>
             <p>Apr. 2021 - Current: 神戸大学工学研究科電気電子工学専攻博士課程後期課程在学</p>
