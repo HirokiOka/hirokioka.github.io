@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Image from 'next/image'
+//import Image from 'next/image'
 import Layout, {siteTitle, name} from '../components/layout'
 
 export default function About() {
@@ -11,28 +11,25 @@ export default function About() {
       </Head>
       <div className='p-6'>
         <h1 className='text-2xl font-bold'>岡 大貴</h1>
-        <Image
+        <img
           className='mx-2'
           width="360"
           height="320"
           src="/images/profile.png"
-          unoptimized={true}
           alt={name}
         />
 
         <div className='grid grid-flow-col auto-cols-max m-2'>
         <Link href="https://twitter.com/unacceptablee2" className='p-1'>
-          <Image
+          <img
             src="/images/square-twitter.svg"
-            unoptimized={true}
             width={30}
             height={30}
           /> 
         </Link>
         <Link href="https://github.com/HirokiOka" className='p-1'>
-          <Image
+          <img
             src="/images/square-github.svg"
-            unoptimized={true}
             width={30}
             height={30}
           /> 
