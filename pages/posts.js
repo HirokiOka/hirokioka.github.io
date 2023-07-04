@@ -10,7 +10,7 @@ export default function Posts({ blogs }) {
       </Head>
       <div className='p-6'>
         <h1 className='text-4xl font-bold'>Blog Posts</h1>
-        <ul className='list-disc list-inside mx-3 text-xl pb-3'>
+        <ul className='list-disc list-inside mx-3 text-xl p-3'>
           {blogs && blogs.map(blog => (
             <li key={blog.id}>
               <Link href={`blog/${blog.id}`}>
