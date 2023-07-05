@@ -7,13 +7,15 @@ export default function BlogId({ blog }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <h1 className='text-2xl font-bold pt-8 mx-2'>{blog.title}</h1>
-      <p className='text-lg font-bold mx-2'>{blog.publishedAt}</p>
-      <div className='text-lg m-4'
-        dangerouslySetInnerHTML={{
-          __html: `${blog.body}`,
-        }}
-      />
+      <div className='m-2'>
+        <h1 className='font-bold md:pt-6 md:text-3xl sm:text-xl'>{blog.title}</h1>
+        <p className='md:text-base sm:text-sm'>{blog.publishedAt}</p>
+        <div className='md:text-base md:m-2 sm:text-sm sm:m-1'
+          dangerouslySetInnerHTML={{
+            __html: `${blog.body}`,
+          }}
+        />
+      </div>
     </Layout>
   )
 }

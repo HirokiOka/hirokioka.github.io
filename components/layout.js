@@ -17,20 +17,22 @@ function Layout({ children, home }) {
         <link rel="icon" href="/images/favicon.ico" />
         <meta
           name="description"
-          content="this is Hiroki Oka's website"
+          content="This is Hiroki Oka's website."
         />
         <meta name="og:title" content={siteTitle} />
       </Head>
+
       <header className='bg-black text-white fixed top-0 w-full'>
         <nav className='m-4'>
-            <Link href="/" className='m-2 text-3xl'>
-              HirokiOka Web.
-            </Link>
-            <Link href="/about" className='mx-4 hover:underline text-2xl'>About</Link>
-            <Link href="/projects" className='mx-4 hover:underline text-2xl'>Projects</Link>
-            <Link href="/posts" className='mx-4 hover:underline text-2xl'>Blog</Link>
+          <Link href="/" className='font-bold sm:text-base sm:mx-1 md:text-4xl md:mx-4'>
+            HirokiOka Web.
+          </Link>
+          <Link href="/about" className='hover:underline mx-2 md:mx-4 md:text-2xl sm:text-base'>About</Link>
+          <Link href="/projects" className='hover:underline mx-2 md:mx-4 md:text-2xl sm:text-base'>Projects</Link>
+          <Link href="/posts" className='hover:underline mx-2 md:mx-4 md:text-2xl sm:text-base'>Blog</Link>
         </nav>
       </header>
+
       <div className='py-12'>{children}</div>
         <footer className='text-center text-xl w-full py-2'>Copyright @ Hiroki Oka All Rights Reserved</footer> 
     </main>

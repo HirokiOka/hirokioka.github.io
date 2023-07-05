@@ -8,11 +8,11 @@ export default function Posts({ blogs }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <div className='p-6'>
-        <h1 className='text-4xl font-bold'>Blog Posts</h1>
-        <ul className='list-disc list-inside mx-3 text-xl p-3'>
+      <div className='md:p-6 sm:p-4'>
+        <h1 className='text-3xl font-bold m-2'>Blog Posts</h1>
+        <ul className='list-disc list-inside mx-3 text-base pb-3'>
           {blogs && blogs.map(blog => (
-            <li key={blog.id}>
+            <li key={blog.id} className='hover:underline'>
               <Link href={`blog/${blog.id}`}>
                 {blog.title}
               </Link>
