@@ -8,8 +8,8 @@ export default function Projects() {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <div className='p-6'>
-        <h1 className='text-4xl font-bold'>Personal Projects</h1>
+      <div className='md:p-6 sm:p-4'>
+        <h1 className='text-2xl font-bold'>Personal Projects</h1>
         <div className='grid grid-flow-col auto-cols-max'>
 
           <div className="cursor-pointer max-w-sm rounded overflow-hidden shadow-lg p-3">
@@ -50,7 +50,7 @@ export default function Projects() {
 
       </div>
 
-        <h1 className="text-4xl font-bold pt-2">Collaborative Projects</h1>
+        <h1 className="text-2xl font-bold pt-2">Collaborative Projects</h1>
         <div className='grid grid-flow-col auto-cols-max'>
           <div className="cursor-pointer max-w-sm rounded overflow-hidden shadow-lg p-3">
               <Link href="https://tsubuyaki-syoten.onrender.com">
