@@ -66,9 +66,10 @@ export default function About() {
               <li><span className='underline'>岡 大貴</span>, 西田健志: エンターテイメントを用いたコードリーディング促進手法の提案, ユビキタス・ウェアラブルワークショップ2019論文集, p.59 (Dec.2019).</li>
               <li><span className='underline'>岡 大貴</span>, 西田健志: 競技性・観戦性を拡張したプログラミングゲームの提案, エンタテインメントコンピューティングシンポジウム2020論文集, Vol. 2020, pp.166--169 (Sep. 2020).</li>
               <li><span className='underline'>岡 大貴</span>, 大西鮎美, 寺田 努, 塚本昌彦: マルチモーダル情報を用いたプログラミング時のつまずき検出手法の検討, ユビキタス・ウェアラブルワークショップ2021論文集, Vol.2021, p.36 (Dec. 2021).</li>
-              <li><span className='underline'>岡 大貴</span>, 大西鮎美，寺田 努, 塚本昌彦: マルチモーダル情報を用いたプログラミング時のつまずき検出手法の提案, 研究報告ヒューマンコンピュータインタラクション (HCI), Vol. 2022, No. 9, pp. 1–7
+              <li><span className='underline'>岡 大貴</span>, 大西鮎美，寺田 努, 塚本昌彦: マルチモーダル情報を用いたプログラミング時のつまずき検出手法の提案, 情報処理学会研究報告ヒューマンコンピュータインタラクション (HCI), Vol. 2022-HCI-197, No. 9, pp. 1–7
 (Mar. 2022).</li>
             <li><span className='underline'>岡 大貴</span>, 大西鮎美, 寺田 努, 塚本昌彦: プログラミング演習授業のためのつまずき検出システムの実運用, ユビキタス・ウェアラブルワークショップ2022論文集, Vol.2022, p.20 (Dec. 2022).</li>
+            <li><span className='underline'>岡 大貴</span>, 大西鮎美, 西田健志, 寺田 努, 塚本昌彦: プログラミング初学者の課題解決方針立案能力の向上に焦点をあてた選択肢タップ式学習システム, 情報処理学会研究報告コンピュータと教育 (CE), Vol.2023-CE-171, No. 14, pp. 1--7 (Oct. 2023).</li>
           </ol>
         <h3 className='text-xl font-bold pt-3'>受賞・予算獲得等</h3>
         <ul className='list-disc list-inside mx-3 text-base'>
