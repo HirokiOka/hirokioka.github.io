@@ -37,7 +37,7 @@ export default function About() {
         </div>
 
         <h1 className='text-xl font-bold'>研究内容</h1>
-        <p className='text-lg m-2'>HCI分野で,プログラミングをより楽しくするための研究をしています．</p>
+        <p className='text-lg m-2'>HCI分野で，プログラミングをより楽しくするための研究をしています．</p>
 
           <h3 className='text-xl font-bold'>略歴</h3>
           <div className='text-base pb-3 m-2'>
