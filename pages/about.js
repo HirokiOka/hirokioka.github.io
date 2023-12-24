@@ -70,6 +70,8 @@ export default function About() {
 (Mar. 2022).</li>
             <li><span className='underline'>岡 大貴</span>, 大西鮎美, 寺田 努, 塚本昌彦: プログラミング演習授業のためのつまずき検出システムの実運用, ユビキタス・ウェアラブルワークショップ2022論文集, Vol.2022, p.20 (Dec. 2022).</li>
             <li><span className='underline'>岡 大貴</span>, 大西鮎美, 西田健志, 寺田 努, 塚本昌彦: プログラミング初学者の課題解決方針立案能力の向上に焦点をあてた選択肢タップ式学習システム, 情報処理学会研究報告コンピュータと教育 (CE), Vol.2023-CE-171, No. 14, pp. 1--7 (Oct. 2023).</li>
+            <li><span className='underline'>岡 大貴</span>, 大西鮎美, 西田健志, 寺田 努, 塚本昌彦: プログラミング初学者の課題解決方針の立案能力を高める選択肢タップ式学習支援システム , WISS2023, Vol.2023, No. 100, pp. 34--40 (Nov. 2023).</li>
+            <li><span className='underline'>岡 大貴</span>, 大西鮎美, 西田健志, 寺田 努, 塚本昌彦: プログラミング未経験者の興味喚起を目的としたタップ式プログラミングゲームの提案, ユビキタス・ウェアラブルワークショップ2023論文集, Vol.2023,  p. 7 (Dec. 2023).</li>
           </ol>
         <h3 className='text-xl font-bold pt-3'>受賞・予算獲得等</h3>
         <ul className='list-disc list-inside mx-3 text-base'>
