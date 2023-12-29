@@ -14,7 +14,7 @@ export default function Posts({ blogs }) {
           {blogs && blogs.map(blog => (
             <li key={blog.id} className='hover:underline'>
               <Link href={`blog/${blog.id}`}>
-                {blog.title}
+                {blog.title} ({blog.publishedAt.split('T')[0]})
               </Link>
             </li>
           ))}
