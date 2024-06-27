@@ -155,7 +155,7 @@ export default function About() {
         </div>
 
         <h1 className='text-xl font-bold'>研究内容</h1>
-        <p className='text-lg mx-4'>HCI分野で，プログラミングをより楽しくするための研究をしています．</p>
+        <p className='text-lg mx-4'>HCI分野でプログラミングをより楽しくするための研究をしています．プログラムを使った表現に興味があります．<br/>プログラミング言語: JavaScript/TypeScript, Python, Processing (Java), openFrameworks (C++)</p>
 
           <h3 className='text-xl font-bold pt-4'>略歴</h3>
           <div className='text-base mx-4'>
