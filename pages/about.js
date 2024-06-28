@@ -202,7 +202,7 @@ export default function About() {
         <ul className='list-disc list-inside mx-8 text-base'>
           <li>令和４年度神戸大学博士学生フェロー</li>
           <li className={linkClass}><a href='https://hacku.yahoo.co.jp/hacku2021online2/'>Yahoo!JAPAN ハッカソン Open Hack U 2021 Online Vol.2 優秀賞 (つぶやき書店)</a></li>
-          <li>令和 2 年度日本学生支援機構奨学金 特に優れた業績による返還免除</li>
+          <li>令和2年度日本学生支援機構奨学金 特に優れた業績による返還免除 (全額)</li>
         </ul>
           
     </div>
