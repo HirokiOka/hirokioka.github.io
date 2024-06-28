@@ -54,7 +54,7 @@ export default function Projects() {
           </div>
 
         <div id="design">
-          <h1 className="text-3xl font-bold px-4 pt-4">Web Design</h1>
+          <h1 className="text-3xl font-bold">Web Design</h1>
           <div className='grid grid-flow-col auto-cols-max'>
 
             <WorkCard
