@@ -31,7 +31,6 @@ export default function Projects() {
       </Head>
 
       <div className='mt-4 md:p-6 sm:p-4'>
-        <div className="grid grid-cols-2">
           <div id="research">
             <h1 className='text-3xl font-bold'>Research</h1>
             <div className='grid grid-flow-col auto-cols-max'>
@@ -72,7 +71,6 @@ export default function Projects() {
               tags={['TypeScript', 'React', 'Next.js']}
             />
           </div>
-        </div>
       </div>
 
         <div id="other">
