@@ -110,7 +110,7 @@ export default function Projects() {
               title="JS_Typing"
               description="GitHub上のソースコードをタイプしていくタイピングゲーム"
               imgSrc="/images/js_type.png"
-              url="https://js-typing.onrender.com/"
+              url="https://js-typing.adaptable.app/"
               tags={['JavaScript', 'Node.js']}
             />
             <WorkCard
