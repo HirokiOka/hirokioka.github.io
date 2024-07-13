@@ -73,8 +73,8 @@ export default function Projects() {
           </div>
       </div>
 
-        <div id="other">
-          <h1 className="text-3xl font-bold px-4 pt-4">Other</h1>
+        <div id="coding">
+          <h1 className="text-3xl font-bold">Creative Coding</h1>
           <div className='grid grid-flow-col auto-cols-max'>
 
             <WorkCard
@@ -91,6 +91,14 @@ export default function Projects() {
               url="https://neort.io/Gt8eI4ixzzfU5PAG1jp6vX7qJNx2"
               tags={['JavaScript', 'p5.js']}
             />
+
+          </div>
+        </div>
+
+        <div id="other">
+          <h1 className="text-3xl font-bold px-4 pt-4">Other</h1>
+          <div className='grid grid-flow-col auto-cols-max'>
+
             <WorkCard
               title="つぶやき書店"
               description="ユーザがTwitterでいいねしたtweetを分析し，それと内容の似た本をレコメンドすることで，まだ出会ったことのない本との「新しい出会い」を創出するWebアプリ"
