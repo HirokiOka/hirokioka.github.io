@@ -175,6 +175,7 @@ export default function About() {
           <h3 className='text-lg font-bold mx-4 mt-2'>国際会議</h3>
           <ol className='list-decimal list-inside text-base mx-8'>
             <li><span className='underline'>H. Oka</span>, A. Ohnishi, T. Terada, M. Tsukamoto: <Link href="https://dl.acm.org/doi/abs/10.1007/978-3-031-20436-4_16" className={linkClass}>A Stumble Detection Method for Programming with Multi-modal Information</Link>, <span className='italic'>Proc. of 20th International Conference on Advances in Mobile Computing and Multimedia Intelligence (MoMM2022)</span>, pp. 169--174 (Nov. 2022).</li>
+            <li><span className='underline'>H. Oka</span>, A. Ohnishi, T. Terada, M. Tsukamoto: Competitive Programming Game to Promote Programming Motivation for Non-Programmers by Highlighting Programmer Coolness, <span className='italic'>Proc. of 18th International Workshop on Informatics (IWIN2024)</span>, to appear (2024).</li>
           </ol>
 
           <h3 className='text-lg font-bold mx-4 mt-2'>国内会議 (査読あり)</h3>
