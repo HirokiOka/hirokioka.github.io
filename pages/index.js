@@ -9,7 +9,7 @@ export default function Home() {
         <Head>
           <title>{siteTitle}</title>
         </Head>
-        <SketchComponent />
+    {/*<SketchComponent />*/}
       </Layout>
     </div>
   );
