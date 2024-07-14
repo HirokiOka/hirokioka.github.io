@@ -1,6 +1,7 @@
 .next
 node_modules/
 .env.development.local
+.env
 .env.production
 .out
 .DS_Store
