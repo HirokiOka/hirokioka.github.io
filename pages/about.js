@@ -138,9 +138,9 @@ export default function About() {
         />
 
         <div className='grid grid-flow-col auto-cols-max m-2'>
-        <Link href="https://twitter.com/unacceptablee2" className='p-1'>
+        <Link href="https://www.instagram.com/hir0ki_0ka?igsh=MTB1YmR1ZmhnMnRjdQ%3D%3D&utm_source=qr" className='p-1'>
           <img
-            src="/images/square-twitter.svg"
+            src="/images/square-instagram.svg"
             width={30}
             height={30}
           /> 
