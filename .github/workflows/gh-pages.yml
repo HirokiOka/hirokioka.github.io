@@ -34,9 +34,6 @@ jobs:
         GITHUB_PAGES: true
         API_KEY: ${{ secrets.API_KEY }}
 
-    - name: export
-      run: npm run export
-
     - name: add nojekyll
       run: touch ./out/.nojekyll
 
