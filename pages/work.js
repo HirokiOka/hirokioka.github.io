@@ -32,7 +32,7 @@ export default function Projects() {
 
       <div className='mt-4 md:p-6 sm:p-4'>
           <div id="research">
-            <h1 className='text-3xl font-bold'>Research</h1>
+            <h1 className='text-2xl font-bold px-2 pt-4'>Research Project</h1>
             <div className='grid grid-flow-col auto-cols-max'>
             
               <WorkCard 
@@ -41,6 +41,13 @@ export default function Projects() {
                 imgSrc="/images/ProgTouch_img.png"
                 url="https://prog-touch.vercel.app/"
                 tags={['TypeScript', 'React', 'Next.js', 'PostgreSQL']}
+              />
+              <WorkCard 
+                title="LiveCodeSTG"
+                description="JavaScriptでプログラマが対戦するシューティング式プログラミングゲーム"
+                imgSrc="/images/liveCodeSTG.png"
+                url="https://livecodestg.adaptable.app/"
+                tags={['JavaScript', 'Node.js', 'Socket.io']}
               />
               <WorkCard 
                 title="/Shot"
@@ -52,29 +59,9 @@ export default function Projects() {
             </div>
           </div>
 
-        <div id="design">
-          <h1 className="text-3xl font-bold">Web Design</h1>
-          <div className='grid grid-flow-col auto-cols-max'>
 
-            <WorkCard
-              title="Ubiquitous Wearable Workshop"
-              description="神戸大学塚本寺田研究室主催のワークショップページデザイン (2021-2023)"
-              imgSrc="/images/uww-2023-hp.png"
-              url="https://tt-lab.jp/uww2023/"
-              tags={['JavaScript','TypeScript', 'React', 'Next.js']}
-            />
-            <WorkCard
-              title="人間改造計画2024"
-              description="神戸大学塚本寺田研究室20周年を記念に開催されたシンポジウムページのデザイン"
-              imgSrc="/images/20th-hp.png"
-              url="https://tt-lab.jp/20thanniv/"
-              tags={['TypeScript', 'React', 'Next.js']}
-            />
-          </div>
-      </div>
-
-        <div id="coding">
-          <h1 className="text-3xl font-bold">Creative Coding</h1>
+        <div id="creative">
+          <h1 className="text-2xl font-bold px-2 pt-4">Creative Project</h1>
           <div className='grid grid-flow-col auto-cols-max'>
 
             <WorkCard
@@ -82,7 +69,7 @@ export default function Projects() {
               description="神戸市のポートタワーをキャンバスに開催されたイベント「KobexDanceWeek」で展示したプロジェクション作品"
               imgSrc="/images/light_keeper.JPG"
               url="https://youtu.be/sySSGVPg_Q8"
-              tags={['openFrameworks']}
+              tags={['openFrameworks', 'Sonic Pi']}
             />
             <WorkCard
               title="p5 sketches"
@@ -95,8 +82,30 @@ export default function Projects() {
           </div>
         </div>
 
+        <div id="design">
+          <h1 className="text-2xl font-bold px-2 pt-4">Web Design</h1>
+          <div className='grid grid-flow-col auto-cols-max'>
+
+            <WorkCard
+              title="Ubiquitous Wearable Workshop"
+              description="神戸大学塚本寺田研究室主催のワークショップページデザイン (2021-2023)"
+              imgSrc="/images/uww-2023-hp.png"
+              url="https://tt-lab.jp/uww2023/"
+              tags={['JavaScript','TypeScript', 'React', 'Next.js']}
+            />
+            <WorkCard
+              title="人間改造計画2024"
+              description="神戸大学塚本寺田研究室20周年を記念に開催されるシンポジウムページのデザイン"
+              imgSrc="/images/20th-hp.png"
+              url="https://tt-lab.jp/20thanniv/"
+              tags={['TypeScript', 'React', 'Next.js']}
+            />
+          </div>
+      </div>
+
+
         <div id="other">
-          <h1 className="text-3xl font-bold px-4 pt-4">Other</h1>
+          <h1 className="text-2xl font-bold px-2 pt-4">Other</h1>
           <div className='grid grid-flow-col auto-cols-max'>
 
             <WorkCard

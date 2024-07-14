@@ -9,7 +9,6 @@
     "export": "next export"
   },
   "dependencies": {
-    "@next/font": "^13.3.0",
     "cross-env": "^7.0.3",
     "gray-matter": "^4.0.3",
     "next": "^13.4.7",

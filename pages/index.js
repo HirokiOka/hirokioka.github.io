@@ -1,6 +1,10 @@
-import Head from 'next/head'
-import Layout, { siteTitle } from '../components/layout'
-import dynamic from 'next/dynamic'
+import Head from 'next/head';
+import Layout, { siteTitle } from '../components/layout';
+import dynamic from 'next/dynamic';
+
+const Sketch = dynamic(() => import('react-p5').then((mod) => mod.default), {
+  ssr: false,
+})
 
 export default function Home() {
   return (
@@ -15,10 +19,6 @@ export default function Home() {
   );
 }
 
-const Sketch = dynamic(import('react-p5'), {
-  loading: () => <></>,
-  ssr: false
-});
 
 export const SketchComponent = () =>  {
   let width;
