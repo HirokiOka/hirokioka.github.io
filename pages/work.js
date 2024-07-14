@@ -112,7 +112,7 @@ export default function Projects() {
               title="つぶやき書店"
               description="ユーザがTwitterでいいねしたtweetを分析し，それと内容の似た本をレコメンドすることで，まだ出会ったことのない本との「新しい出会い」を創出するWebアプリ"
               imgSrc="/images/tsubuyaki-syoten.png"
-              url="https://tsubuyaki-syoten.onrender.com"
+              url="https://tsubuyaki-syoten.adaptable.app/"
               tags={['JavaScript', 'Vue.js', 'Python', 'Flask']}
             />
             <WorkCard

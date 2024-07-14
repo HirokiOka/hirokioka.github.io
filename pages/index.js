@@ -13,14 +13,14 @@ export default function Home() {
         <Head>
           <title>{siteTitle}</title>
         </Head>
-        <SketchComponent className=''/>
+        <SketchComponent />
       </Layout>
     </div>
   );
 }
 
 
-export const SketchComponent = () =>  {
+const SketchComponent = () =>  {
   let width;
   let height;
   const distance = 60;
@@ -32,7 +32,8 @@ export const SketchComponent = () =>  {
   const messageWidth = 600;
 
   const preload = (p5) => {
-    digitFont = p5.loadFont('https://stat.neort.io/externalResource/bqj6tps3p9f48fkipv9g.ttf');
+    const fontPath = 'https://stat.neort.io/externalResource/bqj6tps3p9f48fkipv9g.ttf';
+    digitFont = p5.loadFont(fontPath);
   };
   
   const setup = (p5, canvasParentRef) => {
