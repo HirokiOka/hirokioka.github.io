@@ -20,7 +20,7 @@ export default function Home() {
 }
 
 
-const SketchComponent = () =>  {
+function SketchComponent() {
   let width;
   let height;
   const distance = 60;
