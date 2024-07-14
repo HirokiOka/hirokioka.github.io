@@ -29,7 +29,7 @@ function Layout({ children, home }) {
           </Link>
           <Link href="/about" className='hover:underline mx-2 md:mx-4 md:text-2xl sm:text-base'>About</Link>
           <Link href="/work" className='hover:underline mx-2 md:mx-4 md:text-2xl sm:text-base'>Work</Link>
-          <Link href="/posts" className='hover:underline mx-2 md:mx-4 md:text-2xl sm:text-base'>Blog</Link>
+          <Link href="/blog" className='hover:underline mx-2 md:mx-4 md:text-2xl sm:text-base'>Blog</Link>
         </nav>
       </header>
 

@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 import Layout, {siteTitle, name} from '../components/layout';
 
-export default function Posts({ blogs }) {
+export default function Blog({ blogs }) {
   return (
     <Layout>
       <Head>
