@@ -5,3 +5,4 @@ node_modules/
 .env.production
 .out
 .DS_Store
+out/
