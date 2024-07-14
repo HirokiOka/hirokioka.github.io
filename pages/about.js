@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 //import Image from 'next/image'
-import Layout, {siteTitle, name} from '../components/layout';
+import Layout, { siteTitle, name } from '../components/layout';
 
 const reviewPapers = [
     {

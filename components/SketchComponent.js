@@ -5,8 +5,8 @@ const Sketch = dynamic(() => import('react-p5').then((mod) => mod.default), {
 })
 
 export default function  SketchComponent() {
-  let width;
-  let height;
+  let width = 0;
+  let height = 0;
   const distance = 60;
   const offset = 20;
   let digitFont;
@@ -20,9 +20,7 @@ export default function  SketchComponent() {
   };
   
   const setup = (p5, canvasParentRef) => {
-    //width = p5.windowWidth*2/3;
     width = p5.windowWidth;
-    //height = p5.windowHeight*2/3;
     height = p5.windowHeight;
     p5.createCanvas(width, height).parent(canvasParentRef);
     p5.noStroke();

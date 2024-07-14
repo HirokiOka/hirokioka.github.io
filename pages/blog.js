@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Head from 'next/head';
-import Layout, {siteTitle, name} from '../components/layout';
+import Layout, {esiteTitle, name } from '../components/layout';
 
 export default function Blog({ blogs }) {
   return (
