@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
-//import SketchComponent from '../components/SketchComponent';
+import SketchComponent from '../components/SketchComponent';
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
         <Head>
           <title>{siteTitle}</title>
         </Head>
-    {/*<SketchComponent />*/}
+      <SketchComponent />
       </Layout>
     </div>
   );
