@@ -1,10 +1,6 @@
-import Head from 'next/head';
-import Layout, { siteTitle } from '../components/layout';
-import dynamic from 'next/dynamic';
-
-const Sketch = dynamic(() => import('react-p5').then((mod) => mod.default), {
-  ssr: false,
-})
+import Head from 'next/head'
+import Layout, { siteTitle } from '../components/layout'
+import dynamic from 'next/dynamic'
 
 export default function Home() {
   return (
@@ -13,14 +9,18 @@ export default function Home() {
         <Head>
           <title>{siteTitle}</title>
         </Head>
-        <SketchComponent />
+        <SketchComponent className=''/>
       </Layout>
     </div>
   );
 }
 
+const Sketch = dynamic(import('react-p5'), {
+  loading: () => <></>,
+  ssr: false
+});
 
-function SketchComponent() {
+export const SketchComponent = () =>  {
   let width;
   let height;
   const distance = 60;
@@ -32,8 +32,7 @@ function SketchComponent() {
   const messageWidth = 600;
 
   const preload = (p5) => {
-    const fontPath = 'https://stat.neort.io/externalResource/bqj6tps3p9f48fkipv9g.ttf';
-    digitFont = p5.loadFont(fontPath);
+    digitFont = p5.loadFont('https://stat.neort.io/externalResource/bqj6tps3p9f48fkipv9g.ttf');
   };
   
   const setup = (p5, canvasParentRef) => {
@@ -79,5 +78,4 @@ function SketchComponent() {
 
   return <Sketch preload={preload} setup={setup} draw={draw} windowResized={windowResized}/>;
 }
-
 
