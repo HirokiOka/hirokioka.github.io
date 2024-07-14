@@ -72,8 +72,15 @@ export default function Projects() {
               tags={['openFrameworks', 'Sonic Pi']}
             />
             <WorkCard
+              title="How to behave?"
+              description="Light-Keeperをもとに実装した屋内展示用インタラクティブ作品．ProcessingCommunityDay2023にて展示"
+              imgSrc="/images/howToBehave.png"
+              url="https://youtu.be/ydcIlOPgkBE"
+              tags={['openFrameworks', 'Sonic Pi']}
+            />
+            <WorkCard
               title="p5 sketches"
-              description="p5.jsを使ったクリエイティブコーディング作品集"
+              description="p5.jsを使ったクリエイティブコーディング習作集"
               imgSrc="/images/sketch.png"
               url="https://neort.io/Gt8eI4ixzzfU5PAG1jp6vX7qJNx2"
               tags={['JavaScript', 'p5.js']}
