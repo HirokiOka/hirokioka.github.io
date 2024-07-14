@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
-import SketchComponent from '../components/SketchComponent';
+//import SketchComponent from '../components/SketchComponent';
 
 export default function Home() {
   return (
