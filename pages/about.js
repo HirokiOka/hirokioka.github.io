@@ -170,6 +170,7 @@ export default function About() {
           <h3 className='text-lg font-bold mx-4'>論文誌</h3>
           <ol className='list-decimal list-inside text-base mx-8'>
             <li><span className='underline'>H. Oka</span>, A. Ohnishi, T. Terada, M. Tsukamoto: <Link href="https://www.mdpi.com/1424-8220/23/12/5739" className={linkClass}>System for Detecting Learner Stuck in Programming Learning</Link>, <span className='italic'>Sensors</span>, Vol. 23, No. 12, pp. 1-2 (June 2023).</li>
+            <li><span className='underline'>H. Oka</span>, A. Ohnishi, T. Terada, M. Tsukamoto: A Choice-based Programming Learning Method to Develop Problem-Solving Skills, <span className='italic'>IEEE Access</span>, to appear.</li>
           </ol>
 
           <h3 className='text-lg font-bold mx-4 mt-2'>国際会議</h3>
@@ -203,7 +204,8 @@ export default function About() {
         <ul className='list-disc list-inside mx-8 text-base'>
           <li>令和４年度神戸大学博士学生フェロー</li>
           <li className={linkClass}><a href='https://hacku.yahoo.co.jp/hacku2021online2/'>Yahoo!JAPAN ハッカソン Open Hack U 2021 Online Vol.2 優秀賞 (つぶやき書店)</a></li>
-          <li>令和2年度日本学生支援機構奨学金 特に優れた業績による返還免除 (全額)</li>
+          <li>令和2年度日本学生支援機構奨学金 特に優れた業績による返還免除</li>
+          <li>令和5年度日本学生支援機構奨学金 特に優れた業績による返還免除</li>
         </ul>
           
     </div>
