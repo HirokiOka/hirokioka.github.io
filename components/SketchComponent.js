@@ -16,7 +16,9 @@ export default function  SketchComponent() {
   const messageWidth = 600;
 
   const preload = (p5) => {
-    digitFont = p5.loadFont('https://stat.neort.io/externalResource/bqj6tps3p9f48fkipv9g.ttf');
+    //const fontPath = 'https://stat.neort.io/externalResource/bqj6tps3p9f48fkipv9g.ttf';
+    const fontPath = 'digit.ttf';
+    digitFont = p5.loadFont(fontPath);
   };
   
   const setup = (p5, canvasParentRef) => {
@@ -26,6 +28,7 @@ export default function  SketchComponent() {
     p5.noStroke();
     p5.textAlign(p5.CENTER, p5.CENTER);
     p5.rectMode(p5.CENTER);
+    p5.textFont(digitFont);
   };
 
   const windowResized = (p5) => {
@@ -36,7 +39,6 @@ export default function  SketchComponent() {
 
   const draw = (p5) => {
     let fc = p5.frameCount;
-    p5.textFont(digitFont);
     backgroundColor = p5.sin(fc * 0.004) * 255;
     p5.background(backgroundColor);
     p5.fill(255 - backgroundColor);
@@ -53,7 +55,7 @@ export default function  SketchComponent() {
     }
     p5.fill(backgroundColor);
     p5.rect(width/2, height/2, messageWidth + offset, messageSize + offset);
-    p5.textSize(64);
+    p5.textSize(messageSize);
     p5.fill(255 - backgroundColor);
     p5.text("HELLO   WORLD.", width/2, height/2);
   };
