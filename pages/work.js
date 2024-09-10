@@ -117,21 +117,21 @@ export default function Projects() {
 
             <WorkCard
               title="つぶやき書店"
-              description="ユーザがTwitterでいいねしたtweetを分析し，それと内容の似た本をレコメンドすることで，まだ出会ったことのない本との「新しい出会い」を創出するWebアプリ"
+              description="ユーザがTwitterでいいねしたtweetを分析し，それと内容の似た本をレコメンドすることで，まだ出会ったことのない本との「新しい出会い」を創出するWebアプリ (🚧現在X API対応のため工事中🚧)"
               imgSrc="/images/tsubuyaki-syoten.png"
               url="https://tsubuyaki-syoten.adaptable.app/"
               tags={['JavaScript', 'Vue.js', 'Python', 'Flask']}
             />
             <WorkCard
               title="JS_Typing"
-              description="GitHub上のソースコードをタイプしていくタイピングゲーム"
+              description="GitHub上のソースコードを題材に，写経しながらタイピング練習できるタイピングゲーム"
               imgSrc="/images/js_type.png"
               url="https://js-typing.adaptable.app/"
               tags={['JavaScript', 'Node.js']}
             />
             <WorkCard
               title="Tozan King"
-              description="某高難易度ゲームをモチーフにした2Dブラウザゲーム" 
+              description="某高難易度ゲームをモチーフにした2Dブラウザゲーム (研究室余興用)" 
               imgSrc="/images/tozan_king.png"
               url="https://hirokioka.github.io/jump-game/"
               tags={['JavaScript', 'p5.js']}
