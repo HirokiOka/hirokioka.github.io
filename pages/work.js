@@ -39,7 +39,7 @@ export default function Projects() {
                 title="ProgTouch"
                 description="自然言語の選択によりスマホからプログラミングを学習するWebアプリケーション"
                 imgSrc="/images/ProgTouch_img.png"
-                url="https://prog-touch.vercel.app/"
+                url="https://github.com/HirokiOka/prog-touch"
                 tags={['TypeScript', 'React', 'Next.js', 'PostgreSQL']}
               />
               <WorkCard 
