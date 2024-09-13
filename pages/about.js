@@ -164,7 +164,7 @@ export default function About() {
         </div>
 
         <h1 className='text-xl font-bold'>研究内容</h1>
-        <p className='text-lg mx-4'>HCI分野でプログラミングをより楽しくするための研究をしています．主にWebを使ったインタラクティブシステムを作成してきました．<br />プログラムを使った表現に興味があります．<br/>プログラミング言語: JavaScript/TypeScript, Python, Processing (Java), openFrameworks (C++)</p>
+        <p className='text-lg mx-4'>現在，博士課程でプログラミング初学者を対象とした支援システムの研究に取り組んでおり，初学者が楽しみながらプログラミングに取り組める環境作りを目指しています．主にNode.jsやReactを用いたWebアプリケーションの開発や，openFrameworksやRaspberry Piなどを使ったインタラクティブシステムの開発を行っています．エンターテインメント関連の技術に強い関心があり，特にプログラムを使った創作・表現に興味があります．<br/>プログラミング言語: JavaScript/TypeScript, Python, Processing (Java), openFrameworks (C++)</p>
 
           <h3 className='text-xl font-bold pt-4'>略歴</h3>
           <div className='text-base mx-4'>
