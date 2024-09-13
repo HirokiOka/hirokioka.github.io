@@ -57,6 +57,13 @@ export default function Projects() {
                 tags={['JavaScript', 'Node.js', 'Electron', 'Socket.io', 'MongoDB', 'Raspberry Pi']}
               />
             </div>
+            <WorkCard 
+              title="本へのプロジェクションによる読書体験拡張"
+              description="ウェアラブルプロジェクタから紙の書籍に情報を投影し，読書体験を拡張するシステム"
+              imgSrc="/images/book-proj.jpg"
+              url="https://drive.google.com/drive/u/0/folders/1arQthlk7_W19rMWrj95iYP-YIohr6bhF"
+              tags={['Python', 'Processing', 'openCV']}
+            />
           </div>
 
 
