@@ -6,8 +6,8 @@ import Layout, { siteTitle } from '../components/layout'
 const WorkCard = ({ title, description, imgSrc, url, tags }) => (
   <div className="cursor-pointer max-w-sm rounded-lg overflow-hidden shadow-lg p-3 border mt-2">
     <h2 className="font-bold text-xl my-1 text-center">{title}</h2>
-    <Link href={url}>
-      <img src={imgSrc} width={320} height={320} className="m-auto" />
+    <Link href={url} target="_blank">
+      <img src={imgSrc} width={320} height={320} className="m-auto"/>
     </Link>
     <div className="px-6 py-2">
       <p className="text-gray-700 text-base">{description}</p>
