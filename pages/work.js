@@ -123,6 +123,14 @@ export default function Projects() {
           <div className='grid grid-flow-col auto-cols-max'>
 
             <WorkCard
+              title="Tsukaken 20th Anniversary HMD Show"
+              description="神戸大学塚本寺田研究室20周年記念式典で開催されたHMDショーの統括・演出およびシステム実装を担当"
+              imgSrc="/images/HMD_show.jpg"
+              url="https://youtu.be/RFkIif3NXRU"
+              tags={['openFrameworks', 'Sonic Pi']}
+            />
+
+            <WorkCard
               title="つぶやき書店"
               description="ユーザがTwitterでいいねしたtweetを分析し，それと内容の似た本をレコメンドすることで，まだ出会ったことのない本との「新しい出会い」を創出するWebアプリ (🚧現在X API対応のため工事中🚧)"
               imgSrc="/images/tsubuyaki-syoten.png"
