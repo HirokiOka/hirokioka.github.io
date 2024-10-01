@@ -144,6 +144,7 @@ export default function Projects() {
               url="https://js-typing.adaptable.app/"
               tags={['JavaScript', 'Node.js']}
             />
+        </div>
             <WorkCard
               title="Tozan King"
               description="某高難易度ゲームをモチーフにした2Dブラウザゲーム (研究室余興用)" 
@@ -152,7 +153,6 @@ export default function Projects() {
               tags={['JavaScript', 'p5.js']}
             />
 
-        </div>
       </div>
     </div>
 
