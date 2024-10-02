@@ -53,7 +53,7 @@ export default function Projects() {
                 title="/Shot"
                 description="ビジュアルプログラミングで対戦するプログラミング未経験者向けシューティングゲーム (神戸市立青少年科学館で展示中)"
                 imgSrc="/images/SlashShot_system.png"
-                url="https://www.kobe-kagakukan.jp/topics/archives/291"
+                url="https://www.kobe-u.ac.jp/ja/announcement/2023_11_01_01/"
                 tags={['JavaScript', 'Node.js', 'Electron', 'Socket.io', 'MongoDB', 'Raspberry Pi']}
               />
             </div>
