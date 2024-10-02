@@ -126,7 +126,7 @@ export default function Projects() {
               title="Tsukaken 20th Anniversary HMD Show"
               description="神戸大学塚本寺田研究室20周年記念式典で開催されたHMDショーの統括・演出およびシステム実装を担当"
               imgSrc="/images/HMD_show.jpg"
-              url="https://youtu.be/RFkIif3NXRU"
+              url="https://youtu.be/9a2aqYyi790?si=5Phzx87FOx_FeF90"
               tags={['openFrameworks', 'Sonic Pi']}
             />
 
