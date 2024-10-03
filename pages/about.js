@@ -164,12 +164,13 @@ export default function About() {
         </div>
 
         <h1 className='text-xl font-bold'>研究内容</h1>
-        <p className='text-lg mx-4'>現在，博士課程でプログラミング初学者を対象とした支援システムの研究に取り組んでおり，初学者が楽しみながらプログラミングに取り組める環境作りを目指しています．主にNode.jsやReactを用いたWebアプリケーションの開発や，openFrameworksやRaspberry Piなどを使ったインタラクティブシステムの開発を行っています．エンターテインメント関連の技術に強い関心があり，特にプログラムを使った創作・表現に興味があります．<br/>プログラミング言語: JavaScript/TypeScript, Python, Processing (Java), openFrameworks (C++)</p>
+        <p className='text-lg mx-4'>プログラミング初学者を対象とした支援システムの研究に取り組んでおり，初学者が楽しみながらプログラミングに取り組める環境作りを目指しています．主にNode.jsやReactを用いたWebアプリケーションの開発や，openFrameworksやRaspberry Piなどを使ったインタラクティブシステムの開発を行っています．エンターテインメント関連の技術に強い関心があり，特にプログラムを使った創作・表現に興味があります．博士 (工学)．<br/>プログラミング言語: JavaScript/TypeScript, Python, Processing (Java), openFrameworks (C++)</p>
 
           <h3 className='text-xl font-bold pt-4'>略歴</h3>
           <div className='text-base mx-4'>
-            <p>Apr. 2021 - Current: 神戸大学工学研究科電気電子工学専攻博士課程後期課程在学</p>
-            <p>Mar. 2021: 神戸大学大学院国際文化学研究科博士課程前期課程修了</p>
+            <p>Nov. 2024 - current: 神戸大学工学研究科 研究員</p>
+            <p>Sept. 2024: 神戸大学工学研究科電気電子工学専攻 博士課程後期課程修了</p>
+            <p>Mar. 2021: 神戸大学大学院国際文化学研究科 博士課程前期課程修了</p>
             <p>Mar. 2019: 神戸大学工学部電気電子工学科卒業</p>
           </div>
 
