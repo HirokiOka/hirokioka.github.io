@@ -39,7 +39,7 @@ export default function Projects() {
                 title="ProgTouch"
                 description="プログラミング言語を使ってプログラミングするのではなくではなく，クイズを解くように日本語で表現された選択肢を選択し試行錯誤することで，プログラミング初学者の思考力を培うプログラミング学習アプリケーション．"
                 imgSrc="/images/ProgTouch_img.png"
-                url="https://github.com/HirokiOka/prog-touch"
+                url="/work/ProgTouch"
                 tags={['TypeScript', 'React', 'Next.js', 'PostgreSQL']}
               />
               <WorkCard 

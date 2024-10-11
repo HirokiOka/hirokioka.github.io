@@ -37,7 +37,7 @@ export const getStaticPaths = async () => {
     });
 
   if (!data) {
-    return { paths: [], fallback: false }; // データが取得できなかった場合の処理
+    return { paths: [], fallback: false };
   }
 
   const paths = data.contents.map(content => ({
