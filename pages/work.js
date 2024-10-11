@@ -37,21 +37,21 @@ export default function Projects() {
             
               <WorkCard 
                 title="ProgTouch"
-                description="自然言語の選択によりスマホからプログラミングを学習するWebアプリケーション"
+                description="プログラミング言語を使ってプログラミングするのではなくではなく，クイズを解くように日本語で表現された選択肢を選択し試行錯誤することで，プログラミング初学者の思考力を培うプログラミング学習アプリケーション．"
                 imgSrc="/images/ProgTouch_img.png"
                 url="https://github.com/HirokiOka/prog-touch"
                 tags={['TypeScript', 'React', 'Next.js', 'PostgreSQL']}
               />
               <WorkCard 
                 title="LiveCodeSTG"
-                description="JavaScriptでプログラマが対戦するシューティング式プログラミングゲーム"
+                description="シューティングゲームでプログラマがプログラミングで対戦することで，プログラマのすごさやかっこよさを可視化するプログラミングゲーム"
                 imgSrc="/images/liveCodeSTG.png"
                 url="https://livecodestg.adaptable.app/"
                 tags={['JavaScript', 'Node.js', 'Socket.io']}
               />
               <WorkCard 
                 title="/Shot"
-                description="ビジュアルプログラミングで対戦するプログラミング未経験者向けシューティングゲーム (神戸市立青少年科学館で展示中)"
+                description="LiveCodeSTGをもとに，プログラミング未経験者でもブロックプログラミングで対戦ゲームができるプログラミングゲーム．現在，神戸市立青少年科学館で展示中．"
                 imgSrc="/images/SlashShot_system.png"
                 url="https://www.kobe-u.ac.jp/ja/announcement/2023_11_01_01/"
                 tags={['JavaScript', 'Node.js', 'Electron', 'Socket.io', 'MongoDB', 'Raspberry Pi']}
@@ -73,7 +73,7 @@ export default function Projects() {
 
             <WorkCard
               title="Light-Keeper"
-              description="神戸市のポートタワーをキャンバスに開催されたイベント「KobexDanceWeek」で展示したプロジェクション作品"
+              description="神戸ポートタワーをキャンバスに開催されたイベント「KobexDanceWeek」で展示したプロジェクション作品．用意されたカメラ前に人が立ち，動くことでエフェクトやSEが変化する．無意識的に人をダンスさせ，ポートタワーの光となって神戸を照らさせる．"
               imgSrc="/images/light_keeper.JPG"
               url="https://youtu.be/sySSGVPg_Q8"
               tags={['openFrameworks', 'Sonic Pi']}
@@ -102,14 +102,14 @@ export default function Projects() {
 
             <WorkCard
               title="Ubiquitous Wearable Workshop"
-              description="神戸大学塚本寺田研究室主催のワークショップページデザイン (2021-2023)"
+              description="ユビキタス・ウェアラブル・ワークショップのWebページ実装 (2021-2023)"
               imgSrc="/images/uww-2023-hp.png"
               url="https://tt-lab.jp/uww2023/"
               tags={['JavaScript','TypeScript', 'React', 'Next.js']}
             />
             <WorkCard
               title="人間改造計画2024"
-              description="神戸大学塚本寺田研究室20周年を記念に開催されるシンポジウムページのデザイン"
+              description="神戸大学塚本寺田研究室20周年を記念に開催されたシンポジウムページの実装"
               imgSrc="/images/20th-hp.png"
               url="https://tt-lab.jp/20thanniv/"
               tags={['TypeScript', 'React', 'Next.js']}
@@ -147,7 +147,7 @@ export default function Projects() {
         </div>
             <WorkCard
               title="Tozan King"
-              description="某高難易度ゲームをモチーフにした2Dブラウザゲーム (研究室余興用)" 
+              description="神戸大学生の登校 (=登山) を題材とした高難易度ブラウザゲーム．" 
               imgSrc="/images/tozan_king.png"
               url="https://hirokioka.github.io/jump-game/"
               tags={['JavaScript', 'p5.js']}
