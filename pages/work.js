@@ -46,7 +46,7 @@ export default function Projects() {
                 title="LiveCodeSTG"
                 description="シューティングゲームでプログラマがプログラミングで対戦することで，プログラマのすごさやかっこよさを可視化するプログラミングゲーム"
                 imgSrc="/images/liveCodeSTG.png"
-                url="https://livecodestg.adaptable.app/"
+                url="/work/LiveCodeSTG"
                 tags={['JavaScript', 'Node.js', 'Socket.io']}
               />
               <WorkCard 

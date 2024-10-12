@@ -4,7 +4,7 @@ const Sketch = dynamic(() => import('react-p5').then((mod) => mod.default), {
   ssr: false,
 })
 
-export default function  SketchComponent() {
+export default function SketchComponent() {
   let width = 0;
   let height = 0;
   const distance = 60;
