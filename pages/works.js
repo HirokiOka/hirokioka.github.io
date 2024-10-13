@@ -1,12 +1,11 @@
 import Head from 'next/head'
-//import img from 'next/image'
 import Link from 'next/link'
 import Layout, { siteTitle } from '../components/layout'
 
 const WorkCard = ({ title, description, imgSrc, url, tags }) => (
   <div className="cursor-pointer max-w-sm rounded-lg overflow-hidden shadow-lg p-3 border mt-2">
     <h2 className="font-bold text-xl my-1 text-center">{title}</h2>
-    <Link href={url} target="_blank">
+    <Link href={url}>
       <img src={imgSrc} width={320} height={320} className="m-auto"/>
     </Link>
     <div className="px-6 py-2">
@@ -96,30 +95,9 @@ export default function Projects() {
           </div>
         </div>
 
-        <div id="design">
-          <h1 className="text-2xl font-bold px-2 pt-4">Web Design</h1>
-          <div className='grid grid-flow-col auto-cols-max'>
 
-            <WorkCard
-              title="Ubiquitous Wearable Workshop"
-              description="ユビキタス・ウェアラブル・ワークショップのWebページ実装 (2021-2023)"
-              imgSrc="/images/uww-2023-hp.png"
-              url="https://tt-lab.jp/uww2023/"
-              tags={['JavaScript','TypeScript', 'React', 'Next.js']}
-            />
-            <WorkCard
-              title="人間改造計画2024"
-              description="神戸大学塚本寺田研究室20周年を記念に開催されたシンポジウムページの実装"
-              imgSrc="/images/20th-hp.png"
-              url="https://tt-lab.jp/20thanniv/"
-              tags={['TypeScript', 'React', 'Next.js']}
-            />
-          </div>
-      </div>
-
-
-        <div id="other">
-          <h1 className="text-2xl font-bold px-2 pt-4">Other</h1>
+        <div id="collaborative">
+          <h1 className="text-2xl font-bold px-2 pt-4">Collaborative Project</h1>
           <div className='grid grid-flow-col auto-cols-max'>
 
             <WorkCard
@@ -138,14 +116,6 @@ export default function Projects() {
               tags={['JavaScript', 'Vue.js', 'Python', 'Flask']}
             />
             <WorkCard
-              title="JS_Typing"
-              description="GitHub上のソースコードを題材に，写経しながらタイピング練習できるタイピングゲーム"
-              imgSrc="/images/js_type.png"
-              url="https://js-typing.adaptable.app/"
-              tags={['JavaScript', 'Node.js']}
-            />
-        </div>
-            <WorkCard
               title="Tozan King"
               description="神戸大学生の登校 (=登山) を題材とした高難易度ブラウザゲーム．" 
               imgSrc="/images/tozan_king.png"
@@ -153,7 +123,37 @@ export default function Projects() {
               tags={['JavaScript', 'p5.js']}
             />
 
+        </div>
       </div>
+
+      <div id="other">
+        <h1 className="text-2xl font-bold px-2 pt-4">Other</h1>
+        <div className='grid grid-flow-col auto-cols-max'>
+
+          <WorkCard
+            title="JS_Typing"
+            description="GitHub上のソースコードを題材に，写経しながらタイピング練習できるタイピングゲーム"
+            imgSrc="/images/js_type.png"
+            url="https://js-typing.adaptable.app/"
+            tags={['JavaScript', 'Node.js']}
+          />
+          <WorkCard
+            title="Ubiquitous Wearable Workshop"
+            description="ユビキタス・ウェアラブル・ワークショップのWebページ実装 (2021-2023)"
+            imgSrc="/images/uww-2023-hp.png"
+            url="https://tt-lab.jp/uww2023/"
+            tags={['JavaScript','TypeScript', 'React', 'Next.js']}
+          />
+          <WorkCard
+            title="人間改造計画2024"
+            description="神戸大学塚本寺田研究室20周年を記念に開催されたシンポジウムページの実装"
+            imgSrc="/images/20th-hp.png"
+            url="https://tt-lab.jp/20thanniv/"
+            tags={['TypeScript', 'React', 'Next.js']}
+          />
+        </div>
+    </div>
+
     </div>
 
     </Layout>
