@@ -8,7 +8,7 @@ import Credit from '../../components/Credit';
 
 
 export default function HmdShow() {
-  const imageUrls = ["/images/HmdShow_screen.jpg", "/images/HmdShow_all.jpg"];
+  const imageUrls = ["/images/HmdShow_screen.jpg"];
   const tags = ['openFrameworks', 'Sonic Pi'];
   const projectTitle = "HMD Show";
   const productionYear = "2024";
