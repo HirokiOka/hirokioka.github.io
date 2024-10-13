@@ -39,21 +39,21 @@ export default function Projects() {
                 title="ProgTouch"
                 description="プログラミング言語を使ってプログラミングするのではなくではなく，クイズを解くように日本語で表現された選択肢を選択し試行錯誤することで，プログラミング初学者の思考力を培うプログラミング学習アプリケーション．"
                 imgSrc="/images/ProgTouch_img.png"
-                url="/work/ProgTouch"
+                url="/works/ProgTouch"
                 tags={['TypeScript', 'React', 'Next.js', 'PostgreSQL']}
               />
               <WorkCard 
                 title="LiveCodeSTG"
                 description="シューティングゲームでプログラマがプログラミングで対戦することで，プログラマのすごさやかっこよさを可視化するプログラミングゲーム"
                 imgSrc="/images/liveCodeSTG.png"
-                url="/work/LiveCodeSTG"
+                url="/works/LiveCodeSTG"
                 tags={['JavaScript', 'Node.js', 'Socket.io']}
               />
               <WorkCard 
                 title="/Shot"
                 description="LiveCodeSTGをもとに，プログラミング未経験者でもブロックプログラミングで対戦ゲームができるプログラミングゲーム．現在，神戸市立青少年科学館で展示中．"
                 imgSrc="/images/SlashShot_system.png"
-                url="https://www.kobe-u.ac.jp/ja/announcement/2023_11_01_01/"
+                url="/works/SlashShot"
                 tags={['JavaScript', 'Node.js', 'Electron', 'Socket.io', 'MongoDB', 'Raspberry Pi']}
               />
             </div>
@@ -75,7 +75,7 @@ export default function Projects() {
               title="Light-Keeper"
               description="神戸ポートタワーをキャンバスに開催されたイベント「KobexDanceWeek」で展示したプロジェクション作品．用意されたカメラ前に人が立ち，動くことでエフェクトやSEが変化する．無意識的に人をダンスさせ，ポートタワーの光となって神戸を照らさせる．"
               imgSrc="/images/light_keeper.JPG"
-              url="https://youtu.be/sySSGVPg_Q8"
+              url="/works/LightKeeper"
               tags={['openFrameworks', 'Sonic Pi']}
             />
             <WorkCard
