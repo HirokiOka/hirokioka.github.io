@@ -101,10 +101,10 @@ export default function Projects() {
           <div className='grid grid-flow-col auto-cols-max'>
 
             <WorkCard
-              title="Tsukaken 20th Anniversary HMD Show"
-              description="神戸大学塚本寺田研究室20周年記念式典で開催されたHMDショーの統括・演出およびシステム実装を担当"
+              title="人間改造計画2024シンポジウム HMD Show"
+              description="人間改造計画2024シンポジウムで開催されたHMDショーの統括・演出およびシステム実装を担当"
               imgSrc="/images/HMD_show.jpg"
-              url="https://youtu.be/9a2aqYyi790?si=5Phzx87FOx_FeF90"
+              url="/works/HmdShow"
               tags={['openFrameworks', 'Sonic Pi']}
             />
 
