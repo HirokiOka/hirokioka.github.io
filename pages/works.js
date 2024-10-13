@@ -51,7 +51,7 @@ export default function Projects() {
               <WorkCard 
                 title="/Shot"
                 description="LiveCodeSTGをもとに，プログラミング未経験者でもブロックプログラミングで対戦ゲームができるプログラミングゲーム．現在，神戸市立青少年科学館で展示中．"
-                imgSrc="/images/SlashShot_system.png"
+                imgSrc="/images/SlashShot_system.jpg"
                 url="/works/SlashShot"
                 tags={['JavaScript', 'Node.js', 'Electron', 'Socket.io', 'MongoDB', 'Raspberry Pi']}
               />
@@ -111,14 +111,14 @@ export default function Projects() {
             <WorkCard
               title="つぶやき書店"
               description="ユーザがTwitterでいいねしたtweetを分析し，それと内容の似た本をレコメンドすることで，まだ出会ったことのない本との「新しい出会い」を創出するWebアプリ (🚧現在X API対応のため工事中🚧)"
-              imgSrc="/images/tsubuyaki-syoten.png"
+              imgSrc="/images/tsubuyaki-syoten.jpg"
               url="https://tsubuyaki-syoten.adaptable.app/"
               tags={['JavaScript', 'Vue.js', 'Python', 'Flask']}
             />
             <WorkCard
               title="Tozan King"
               description="神戸大学生の登校 (=登山) を題材とした高難易度ブラウザゲーム．" 
-              imgSrc="/images/tozan_king.png"
+              imgSrc="/images/tozan_king.jpg"
               url="https://hirokioka.github.io/jump-game/"
               tags={['JavaScript', 'p5.js']}
             />

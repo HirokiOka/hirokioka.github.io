@@ -7,7 +7,7 @@ import LinkList from '../../components/LinkList';
 
 
 export default function LightKeeper() {
-  const imageUrls = ["/images/light_keeper.JPG", "/images/LightKeeper_pix.png"];
+  const imageUrls = ["/images/light_keeper.JPG", "/images/LightKeeper_pix.jpg"];
   const tags = ['openFrameworks', 'Sonic Pi'];
   const projectTitle = "Light-Keeper";
   const productionYear = "2022";

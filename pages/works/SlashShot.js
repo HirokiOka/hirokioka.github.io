@@ -8,7 +8,7 @@ import LinkList from '../../components/LinkList';
 
 
 export default function SlashShot() {
-  const imageUrls = ["/images/SlashShot_system.png", "/images/SlashShot_game.png", "/images/SlashShot_interface.png"];
+  const imageUrls = ["/images/SlashShot_system.jpg", "/images/SlashShot_game.png", "/images/SlashShot_interface.png"];
   const tags = ['JavaScript', 'Node.js', 'Electron', 'Socket.io', 'MongoDB', 'Raspberry Pi'];
   const projectTitle = "/Shot";
   const productionYear = "2023-2024";
