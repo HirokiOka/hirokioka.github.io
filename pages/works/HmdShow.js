@@ -15,9 +15,13 @@ export default function HmdShow() {
   const projectDescription = "神戸大学の塚本・寺田研究室設立20周年を記念し，開催された人間改造計画2024シンポジウム．ウェアラブル・ユビキタスコンピューティング研究に関する議論にとどまらず，近年の生成AI技術の発展も含め，広く人間の発展に関する議論がなされた．\n本イベント企画の一つである，最新のHMDをファッションコーディネートを交えて紹介するHMDショーの統括および背景アプリケーション実装を担当した．イベントロゴは赤色がメインであり，本年は塚本教授が還暦を迎える年でもあったため，赤色を基調としたかっこよさをコンセプトにショーを構成した．";
   const otherLinks = [
     {
+      "title": "GitHub",
+      "url": "https://github.com/HirokiOka/hmd-backdrop"
+    },
+    {
       "title": "HP",
       "url": "https://tt-lab.jp/20thanniv/"
-    }
+    },
   ];
   const showMembers = [
     "岡 大貴",
