@@ -13,7 +13,12 @@ export default function TsubuyakiSyoten() {
   const projectTitle = "つぶやき書店";
   const productionYear = "2021";
   const projectDescription = "つぶやき書店は、あなたがTwitterでいいねしたツイートの内容から、潜在的な興味関心に沿った本をおすすめするWebアプリケーションです。まるで本屋をあてもなくぶらつきながら、ふと興味のある本が目に留まる運命的な出会い（セレンディピティ）を、普段何気なくいいねするツイートの内容から本をおすすめすることにより再現します。\n既存のECサイトに見られる購入履歴から本をおすすめする機能は、確かにあなたが読んだ本の傾向から興味関心に沿った本を推薦してくれます。しかし、それらの本はどれも似通っており，本屋に実際に行った時のような多様な本との能動的な出会いを得ることはできません。また、コロナウイルスの蔓延する昨今の状況下では、実際に本屋に足を運ぶことがはばかられ、本との偶然の出会い（セレンディピティ）を得る機会が減少しています。\nそこで、私たちはそのような偶然の出会い（セレンディピティ）をWeb上で体験できる機会を生み出すことを目指しました。";
-  const otherLinks = ["https://hacku.yahoo.co.jp/hacku2021online2/"];
+  const otherLinks = [
+    {
+      "title": "article",
+      "url": "https://hacku.yahoo.co.jp/hacku2021online2/"
+    }
+];
   const showMembers = [
     "Hiroki Oka",
     "Kai Washino",

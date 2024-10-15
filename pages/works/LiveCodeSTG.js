@@ -4,6 +4,7 @@ import ProjectDetail from '../../components/ProjectDetail';
 import ResearchPapers from '../../components/ResearchPapers';
 import SkillTags from '../../components/SkillTags';
 import ProjectImages from '../../components/ProjectImages';
+import LinkList from '../../components/LinkList';
 
 
 export default function LiveCodeSTG() {
@@ -11,7 +12,7 @@ export default function LiveCodeSTG() {
   const tags = ['JavaScript', 'Node.js', 'Socket.io'];
   const projectTitle = "LiveCodeSTG";
   const productionYear = "2020";
-  const projectDescription = "近年、自然言語の読み書きや運動と同様に、誰もがある程度プログラミングのスキルや考え方を身につけるべきだと考えられている。その代表的な例が、2020年度から小学校でプログラミング教育が必修化されたことである。現代では、IoTデバイスやスマートスピーカーなど、コンピュータと密接に関わる技術が急速に普及しており、プログラミングやコンピュータの仕組みを理解せずに、設計者が何を考えて実装しているかをブラックボックス化することは問題である。しかし、プログラミングは読み書きや運動とは異なり、その楽しさを実感するまでに習熟が必要であるため、初心者には楽しさを感じにくいという課題がある。例えば、小説やプロスポーツのファインプレーは、初心者でも心を動かされ、それに憧れを持つが、プログラミングにはそのような機会が少ないのが現状である。これまでにもプログラミング力を競うゲームは開発されてきたが、プログラミング初心者が観戦して楽しめるものは少ない。本研究では、高レベルのプログラマが技術を競い合い、さらに初心者でも観戦を楽しめるプログラミングゲームを開発することを目的としている。競技性と観戦性を兼ね備えたゲームを通じて、プログラマへの憧れを抱かせ、プログラミングに対する興味を喚起することを目指す。ゲームの設計指針としては、(1)プログラミングの魅力を見せるデザイン、(2)戦略の多様性、(3)リアルタイムでの駆け引きとアドリブの要素を取り入れることが挙げられる。";
+  const projectDescription = "近年、自然言語の読み書きや運動と同様に、誰もがある程度プログラミングのスキルや考え方を身につけるべきだと考えられている。その代表的な例が、2020年度から小学校でプログラミング教育が必修化されたことである。現代では、IoTデバイスやスマートスピーカーなど、コンピュータと密接に関わる技術が急速に普及しており、プログラミングやコンピュータの仕組みを理解せずに、設計者が何を考えて実装しているかをブラックボックス化することは問題である。\nしかし、プログラミングは読み書きや運動とは異なり、その楽しさを実感するまでに習熟が必要であるため、初心者には楽しさを感じにくいという課題がある。例えば、小説やプロスポーツのファインプレーは、初心者でも心を動かされ、それに憧れを持つが、プログラミングにはそのような機会が少ないのが現状である。これまでにもプログラミング力を競うゲームは開発されてきたが、プログラミング初心者が観戦して楽しめるものは少ない。\n本研究では、高レベルのプログラマが技術を競い合い、さらに初心者でも観戦を楽しめるプログラミングゲームを開発することを目的としている。競技性と観戦性を兼ね備えたゲームを通じて、プログラマへの憧れを抱かせ、プログラミングに対する興味を喚起することを目指す。ゲームの設計指針としては、(1)プログラミングの魅力を見せるデザイン、(2)戦略の多様性、(3)リアルタイムでの駆け引きとアドリブの要素を取り入れることが挙げられる。";
   const projectPapers = [
     {
         author: "岡 大貴, 西田健志",
@@ -22,6 +23,16 @@ export default function LiveCodeSTG() {
         pages: "pp.166--169",
         date: "Sep. 2020"
     },
+  ];
+  const otherLinks = [
+    {
+      title: "Webアプリ",
+      url: "https://livecodestg.adaptable.app/"
+    },
+    {
+      title: "GitHub",
+      url: "https://github.com/HirokiOka/liveCodeSTG"
+    }
   ];
 
   return (
@@ -40,6 +51,7 @@ export default function LiveCodeSTG() {
           />
           <ResearchPapers papers={projectPapers} />
           <SkillTags tags={tags} />
+          <LinkList links={otherLinks} />
         </div>
 
         <div className="md:w-1/2 w-full px-4 py-12">
