@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Layout, { siteTitle } from '../components/layout'
+import SkillTags from '../components/SkillTags';
 
 const WorkCard = ({ title, description, imgSrc, url, tags }) => (
   <div className="cursor-pointer max-w-sm rounded-lg overflow-hidden shadow-lg p-3 border mt-2">
@@ -11,11 +12,7 @@ const WorkCard = ({ title, description, imgSrc, url, tags }) => (
     <div className="px-6 py-2">
       <p className="text-gray-700 text-base">{description}</p>
       <div className="pt-4">
-        {tags.map((tag, index) => (
-          <span key={index} className="inline-block bg-blue-200 rounded-full px-2 py-1 text-sm font-semibold text-gray-700 mr-2 mt-2">
-          #{tag}
-          </span>
-        ))}
+      <SkillTags tags={tags} />
       </div>
     </div>
 
@@ -31,8 +28,8 @@ export default function Projects() {
 
       <div className='mt-4 md:p-6 sm:p-4'>
           <div id="research">
-            <h1 className='text-2xl font-bold px-2 pt-4'>Research Project</h1>
-            <div className='grid grid-flow-col auto-cols-max'>
+            <h1 className='text-3xl font-bold px-2 pt-4 pb-2 italic underline'>RESEARCH</h1>
+            <div className='px-8 grid grid-flow-col auto-cols-max'>
             
               <WorkCard 
                 title="ProgTouch"
@@ -56,6 +53,7 @@ export default function Projects() {
                 tags={['JavaScript', 'Node.js', 'Electron', 'Socket.io', 'MongoDB', 'Raspberry Pi']}
               />
             </div>
+            <div className="px-8">
             <WorkCard 
               title="本へのプロジェクションによる読書体験拡張"
               description="ウェアラブルプロジェクタから紙の書籍に情報を投影し，読書体験を拡張するシステム"
@@ -63,12 +61,13 @@ export default function Projects() {
               url="https://drive.google.com/drive/u/0/folders/1arQthlk7_W19rMWrj95iYP-YIohr6bhF"
               tags={['Python', 'Processing', 'openCV']}
             />
+            </div>
           </div>
 
 
         <div id="creative">
-          <h1 className="text-2xl font-bold px-2 pt-4">Creative Project</h1>
-          <div className='grid grid-flow-col auto-cols-max'>
+          <h1 className="text-3xl font-bold italic px-2 pt-8 pb-2 underline">CREATIVE</h1>
+          <div className='px-8 grid grid-flow-col auto-cols-max'>
 
             <WorkCard
               title="Light-Keeper"
@@ -97,8 +96,8 @@ export default function Projects() {
 
 
         <div id="collaborative">
-          <h1 className="text-2xl font-bold px-2 pt-4">Collaborative Project</h1>
-          <div className='grid grid-flow-col auto-cols-max'>
+          <h1 className="text-3xl italic font-bold px-2 pt-8 pb-2 underline">COLLABOLATIVE</h1>
+          <div className='px-8 grid grid-flow-col auto-cols-max'>
 
             <WorkCard
               title="人間改造計画2024シンポジウム HMD Show"
@@ -127,8 +126,8 @@ export default function Projects() {
       </div>
 
       <div id="other">
-        <h1 className="text-2xl font-bold px-2 pt-4">Other</h1>
-        <div className='grid grid-flow-col auto-cols-max'>
+        <h1 className="text-3xl italic font-bold px-2 pt-8 pb-2 underline">OTHER</h1>
+        <div className='px-8 grid grid-flow-col auto-cols-max'>
 
           <WorkCard
             title="JS_Typing"

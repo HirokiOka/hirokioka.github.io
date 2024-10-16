@@ -62,7 +62,7 @@ export default function SlashShot() {
             description={projectDescription}
           />
           <ResearchPapers papers={projectPapers} />
-          <SkillTags tags={tags} />
+          <div className="mx-4"><SkillTags tags={tags} /></div>
           <div className="mx-8 mt-4">
             <LinkList links={otherLinks} />
           </div>

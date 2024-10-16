@@ -42,7 +42,7 @@ export default function TsubuyakiSyoten() {
               year={productionYear}
               description={projectDescription}
             />
-            <SkillTags tags={tags} />
+          <div className="mx-4"><SkillTags tags={tags} /></div>
             <Credit members={showMembers} />
             <LinkList links={otherLinks} />
           </div>

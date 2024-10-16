@@ -71,7 +71,7 @@ export default function ProgTouch() {
               description={projectDescription}
             />
             <ResearchPapers papers={projectPapers} />
-            <SkillTags tags={tags} />
+          <div className="mx-4"><SkillTags tags={tags} /></div>
             <LinkList links={otherLinks} />
           </div>
 

@@ -51,7 +51,7 @@ export default function HmdShow() {
               year={productionYear}
               description={projectDescription}
             />
-            <SkillTags tags={tags} />
+            <div className="mx-6"><SkillTags tags={tags} /></div>
             <LinkList links={otherLinks} />
             <Credit members={showMembers} />
           </div>
