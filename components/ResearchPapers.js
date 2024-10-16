@@ -16,7 +16,7 @@ const ResearchPaper = ({ paper }) => (
 export default function ResearchPapers({ papers }) {
   return (
     <>
-      <h2 className="pt-2 px-8 font-bold">発表文献：</h2>
+      <h2 className="pt-2 px-8 font-bold">論文：</h2>
       <ol className='list-decimal list-inside text-base mx-12'>
         {papers.map((paper, index) => <ResearchPaper key={index} paper={paper} />)}
       </ol>

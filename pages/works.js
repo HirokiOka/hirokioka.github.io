@@ -33,7 +33,7 @@ export default function Projects() {
             
               <WorkCard 
                 title="ProgTouch"
-                description="プログラミング言語を使ってプログラミングするのではなくではなく，クイズを解くように日本語で表現された選択肢を選択し試行錯誤することで，プログラミング初学者の思考力を培うプログラミング学習アプリケーション．"
+                description="プログラミング初心者が、自然言語で提示された選択肢を通じて問題解決力を養う学習支援システム。試行錯誤を繰り返すことで、プログラムの課題を解決し、アルゴリズムの理解を深める。大学講義での使用実績もあり、学生のスコア向上が確認された。"
                 imgSrc="/images/ProgTouch_img.png"
                 url="/works/ProgTouch"
                 tags={['TypeScript', 'React', 'Next.js', 'PostgreSQL']}
