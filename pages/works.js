@@ -4,17 +4,17 @@ import Layout, { siteTitle } from '../components/layout'
 import SkillTags from '../components/SkillTags';
 
 const WorkCard = ({ title, description, imgSrc, url, tags }) => (
-  <div className="cursor-pointer max-w-sm rounded-lg overflow-hidden shadow-lg p-3 border mt-2">
-    <h2 className="font-bold text-xl my-1 text-center">{title}</h2>
+  <div className="cursor-pointer max-w-sm rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 p-3 border mt-2">
+    <h2 className="font-bold text-xl mt-1 mb-2 text-center">{title}</h2>
     <Link href={url}>
       <img src={imgSrc} width={320} height={320} className="m-auto"/>
-    </Link>
-    <div className="px-6 py-2">
-      <p className="text-gray-700 text-base">{description}</p>
-      <div className="pt-4">
-      <SkillTags tags={tags} />
+      <div className="px-6 py-2">
+        <p className="text-gray-700 text-base">{description}</p>
+        <div className="pt-4">
+        <SkillTags tags={tags} />
+        </div>
       </div>
-    </div>
+    </Link>
 
   </div>
 );
