@@ -100,7 +100,7 @@ export default function Projects() {
           <div className='px-8 grid grid-flow-col auto-cols-max'>
 
             <WorkCard
-              title="人間改造計画2024シンポジウム HMD Show"
+              title="20th HMD Show"
               description="人間改造計画2024シンポジウムで開催されたHMDショーの統括・演出およびシステム実装を担当"
               imgSrc="/images/HMD_show.jpg"
               url="/works/HmdShow"
