@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import Link from 'next/link';
-//import Image from 'next/image'
 import Layout, { siteTitle, name } from '../components/layout';
 
 const reviewPapers = [
@@ -163,8 +162,10 @@ export default function About() {
         </Link>
         </div>
 
-        <h1 className='text-xl font-bold'>研究内容</h1>
-        <p className='text-lg mx-4'>プログラミング初学者を対象とした支援システムの研究に取り組んでおり，初学者が楽しみながらプログラミングに取り組める環境作りを目指しています．主にNode.jsやReactを用いたWebアプリケーションの開発や，openFrameworksやRaspberry Piなどを使ったインタラクティブシステムの開発を行っています．エンターテインメント関連の技術に強い関心があり，特にプログラムを使った創作・表現に興味があります．博士 (工学)．<br/>プログラミング言語: JavaScript/TypeScript, Python, Processing (Java), openFrameworks (C++)</p>
+        <p className='text-lg mx-4'>プログラミング初学者を対象とした支援システムの研究に取り組んでおり，初学者が楽しみながらプログラミングに取り組める環境作りを目指しています．<br/>主にNode.jsやReactを用いたWebアプリケーションの開発や，openFrameworksやRaspberry Piなどを使ったインタラクティブシステムの開発を行っています．エンターテインメント関連の技術に強い関心があり，特にプログラムを使った創作・表現に興味があります．博士 (工学)．</p>
+
+          <p className='mx-4 text-lg'><span className="font-bold">プログラミング言語</span>: JavaScript/TypeScript, Python, Processing (Java), openFrameworks (C++)</p>
+          <p className='mx-4 text-lg mt-2'><span className="font-bold">E-mail</span>: hirokioka.dev [at] gmail.com</p>
 
           <h3 className='text-xl font-bold pt-4'>略歴</h3>
           <div className='text-base mx-4'>
