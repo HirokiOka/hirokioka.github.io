@@ -22,6 +22,10 @@ export default function HmdShow() {
       "title": "HP",
       "url": "https://tt-lab.jp/20thanniv/"
     },
+    {
+      "title": "BGM (SoundCloud)",
+      "url": "https://soundcloud.com/mementoka/hmd-human-machine-drive?si=a9996a5c38764cad955739444fc3f785&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+    },
   ];
   const showMembers = [
     "岡 大貴",

@@ -20,6 +20,10 @@ export default function LightKeeper() {
     {
       "title": "GitHub",
       "url": "https://github.com/HirokiOka/light-keeper"
+    },
+    {
+      "title": "BGM (SoundCloud)",
+      "url": "https://soundcloud.com/mementoka/gazing-lighthouse?si=fc093e296395484080447fecdf8e2f71&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
     }
 ];
 
