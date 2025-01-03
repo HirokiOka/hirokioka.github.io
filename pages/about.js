@@ -78,6 +78,14 @@ const researchPapers = [
 const miscPapers = [
     {
         author: "岡 大貴, 大西鮎美, 西田健志, 寺田 努, 塚本昌彦",
+        title: "プログラミング未経験者の意欲向上のための対戦ゲーム「/Shot」の実運用",
+        publication: "ユビキタス・ウェアラブルワークショップ2024論文集",
+        volume: "Vol.2024",
+        pages: "p. 35",
+        date: "Dec. 2024"
+    },
+    {
+        author: "岡 大貴, 大西鮎美, 西田健志, 寺田 努, 塚本昌彦",
         title: "プログラミング未経験者の興味喚起を目的としたタップ式プログラミングゲームの提案",
         publication: "ユビキタス・ウェアラブルワークショップ2023論文集",
         volume: "Vol.2023",
